@@ -87,3 +87,8 @@ for i in score:
   if int(i)<60:
     countF += 1
     print('不及格人數:'countF)
+
+score=input().split()
+countF=0
+max=score[0]
+min=score[0]
